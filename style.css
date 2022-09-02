@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Bohemian Soul;
+    src: url(fonts/Bohemian\ Soul.otf);
+}
+
+@font-face {
+    font-family: Warung Kopi;
+    src: url(fonts/Warung\ Kopi.otf);
+}
+
+@font-face {
+    font-family: Lime Days;
+    src: url(fonts/Lime\ Days.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7ECDE;
+}
+
+/*header*/
+.header {
+    width: 100%;
+    min-height: 80px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #F7ECDE;
+    position: fixed;
+    top: 0;
+    transition: 0.2s;
+    background-color:rgb(235, 219, 190);
+}
+
+.header ul li {
+    display: inline-block;
+    font-size: 40px;
+    transition: 0.2s;
+    
+}
+
+.header img {
+    cursor: pointer;
+    margin-left: -50px;
+    transition: 1s;
+}
+
+.header a {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.Nav_link {
+    list-style: none;
+    transition: 0.2s;
+}
+
+.Nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: 0.2s;
+}
+
+.Nav_link li a {
+    transition: all 0.8s ease all;
+    color: #826F66;
+    font-size: 30px;
+    font-family: Lime Days;
+}
+
+.Nav_link li a:hover {
+    color: #3A3845
+}
+
+/* about us */
+.about {
+    width: 100%;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.about h2 {
+    font-family: Bohemian Soul;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.about p {
+    font-family: Warung Kopi;
+    font-size: 20px;
+}
+
+.visimisi {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.visimisi h2 {
+    margin-bottom: 10px;
+}
+
+.visimisi p {
+    margin-bottom: 40px;
+}
+
+.tentang {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tentang h2 {
+    margin-bottom: 10px;
+}
+
+.tentang p {
+    margin-bottom: 40px;
+}
+
+/*contacts n credits*/
+.concred {
+    width: 100%;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color:rgb(198, 185, 160);
+}
+
+.concred h2 {
+    font-family: Bohemian Soul;
+    font-weight: lighter;
+}
+
+.concred p {
+    font-family: Warung Kopi;
+}
+
+.contacts {
+    padding-top: 30px;
+    float: left;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.contacts h2 {
+    margin-bottom: 5px;
+}
+
+.credits {
+    padding-top: 45px;
+    float: right;
+    text-align: center;
+    margin-right: 200px;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    margin: auto;
+}
+
+.footer h4 {
+    text-align: center;
+    background-color: #E9DAC1;
+    padding: 10px;
+}
